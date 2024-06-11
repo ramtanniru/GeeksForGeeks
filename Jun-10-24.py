@@ -4,8 +4,8 @@ class Solution:
 		order = ['!','#','$','%','&','*','?','@','^']
 		idx = 0
 		for i in order:
-		    if i in x:
-		        nuts[idx] = i
-		        bolts[idx] = i
-		        idx += 1
+			if i in x:
+				nuts[idx] = i
+				bolts[idx] = i
+				idx += 1
 		return
