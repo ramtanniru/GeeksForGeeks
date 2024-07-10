@@ -1,6 +1,3 @@
-from typing import List
-
-
 class Solution:
     def maxSquare(self, n : int, m : int, mat : List[List[int]]) -> int:
         dp = [[0]*len(mat[0]) for i in range(len(mat))]
