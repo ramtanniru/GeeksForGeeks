@@ -1,4 +1,9 @@
-dp = [[0]*len(mat[0]) for i in range(len(mat))]
+from typing import List
+
+
+class Solution:
+    def maxSquare(self, n : int, m : int, mat : List[List[int]]) -> int:
+        dp = [[0]*len(mat[0]) for i in range(len(mat))]
         maxArea = 0
         for i in range(len(mat)):
             for j in range(len(mat[0])):
