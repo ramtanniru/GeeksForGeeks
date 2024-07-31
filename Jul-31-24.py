@@ -36,3 +36,4 @@ class Solution:
             if i!=ele:
                 self.insertNext(ele,i)
         return self.searchLongestPrefix() 
+    
