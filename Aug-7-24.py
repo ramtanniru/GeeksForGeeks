@@ -18,4 +18,3 @@ class Solution:
                 j += 1
             return res
         return merge(arr1,arr2)[k-1] 
-    
