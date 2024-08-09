@@ -6,3 +6,4 @@ class Solution:
         for i,x in enumerate(a):
             s += i*x % mod
         return s % mod 
+    
