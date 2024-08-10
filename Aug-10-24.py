@@ -23,3 +23,4 @@ class Solution:
             curr = curr.next
         curr.next = head
         return temp 
+    
