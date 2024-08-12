@@ -16,4 +16,3 @@ class Solution:
         while j<len(arr2) and len(merged)<=mid:
             merged.append(arr2[j])
         return merged[-1]+merged[-2] 
-    
