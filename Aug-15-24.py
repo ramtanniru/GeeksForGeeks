@@ -40,3 +40,4 @@ class Solution:
             res.next = updatedHead
             return res
         return updatedHead 
+    
